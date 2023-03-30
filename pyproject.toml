@@ -8,3 +8,9 @@ authors = [{name = "Juan Carlos Aranda Huecas", email = "juanki0396@gmail.com"}]
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
+
+[project.optional-dependencies]
+dev = [
+    "flit",
+    "pip-tools"
+]
